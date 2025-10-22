@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 // 🖼️ Importing local images
 import EMS from "../assets/EMS.png";
 import Chatbot from "../assets/Chatbot.png";
-import Food from "../assets/Food.png";
-import RealEstate from "../assets/Real Estate.png";
+import Food from "../assets/food.png";
+import RealEstate from "../assets/RealEstate.png";
 
 const Projects = () => {
   const [activeModal, setActiveModal] = useState(null);
