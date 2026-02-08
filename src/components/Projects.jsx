@@ -6,7 +6,7 @@ import EMS from "../assets/EMS.png";
 import Chatbot from "../assets/Chatbot.png";
 import Food from "../assets/food.png";
 import RealEstate from "../assets/RealEstate.png";
-import Data from "../assets/data.png";
+import Data from "../assets/Data.png";
 import sentence from "../assets/sentence.png";
 
 const Projects = () => {
