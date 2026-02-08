@@ -6,6 +6,8 @@ import EMS from "../assets/EMS.png";
 import Chatbot from "../assets/Chatbot.png";
 import Food from "../assets/food.png";
 import RealEstate from "../assets/RealEstate.png";
+import Data from "../assets/data.png";
+import sentence from "../assets/sentence.png";
 
 const Projects = () => {
   const [activeModal, setActiveModal] = useState(null);
@@ -75,6 +77,25 @@ const Projects = () => {
       live: "https://real-estate-website-wla8-k3pt13oux.vercel.app",
       github: "https://github.com/Aditya96670/Real_Estate_Website",
     },
+     {
+    title: "Data Entry Through Images",
+    img: Data, 
+    description:
+      "Upload images and automatically extract and store data from images with a single click.",
+    tech: ["React", "Node.js", "Express", "MongoDB"],
+    live: "https://data-entry-zeta.vercel.app/",
+    github: "https://github.com/Aditya96670/Data_Entry",
+  },
+
+  {
+    title: "Sentence Construction Game",
+    img: sentence, 
+    description:
+      "An interactive game that helps users improve sentence formation by arranging jumbled words.",
+    tech: ["React", "Tailwind CSS"],
+    live: "https://sentences-construction.vercel.app/",
+    github: "https://github.com/Aditya96670/Sentences_construction",
+  },
   ];
 
   return (

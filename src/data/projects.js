@@ -23,4 +23,16 @@ export const projects = [
     tech: ["React", "Tailwind CSS", "Context API"],
     link: "https://github.com/Aditya96670/food-delivery",
   },
+  {
+    title: "Data Entry Through Images",
+    desc: "Add data through images just select the images and just click add  then the data in the images will directly add to the data ",
+    tech: ["React", "Node.js", "Express", "MongoDB"],
+    link: "https://data-entry-zeta.vercel.app/",
+  },
+  {
+    title: "Sentence Construction Game",
+    desc: "A fun and interactive game that helps users improve their sentence construction skills by rearranging jumbled words into meaningful sentences.",
+    tech: ["React", "Tailwind CSS"],
+    link: "https://sentences-construction.vercel.app/"
+  }
 ];
